@@ -1,0 +1,16 @@
+{
+  "name": "node_deployment",
+  "version": "1.0.0",
+  "description": "deploy node js application using pm2 and nginix",
+  "main": "server.js",
+  "scripts": {
+    "start":"nodemon server.js"
+  },
+  "author": "champuser@openturf",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13",
+    "pm2": "^5.1.2"
+  }
+}
